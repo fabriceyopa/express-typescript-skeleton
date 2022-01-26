@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon --exec ts-node --files src/index.ts",
-    "start:production": "pm2 start --name 'ejara_api' node -- -r ./tsconfig-paths.js build/index.js",
+    "start:production": "pm2 start --name 'api' node -- -r ./tsconfig-paths.js build/index.js",
     "build": "cd src && tsc",
     "pre-commit": "lint-staged"
   },

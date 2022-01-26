@@ -31,7 +31,7 @@ yarn run start:production
 
 ```
 
-This command will create a process "ejara_api". The process node can be change on package.json file.
+This command will create a process "api". The process node can be change on package.json file.
 
 # Project structure 🏗
 
